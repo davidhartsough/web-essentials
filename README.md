@@ -2,6 +2,8 @@
 
 > "Web Essentials" is the boilerplate template / style guide for the basic [HTML](https://github.com/davidhartsough/web-essentials/blob/main/index.html) and [CSS](https://github.com/davidhartsough/web-essentials/blob/main/index.css) of any website.
 
+→ [Go here for the simple gist](https://gist.github.com/davidhartsough/d32ca7e80565c5fff29f70fa0880474c)
+
 **Table of Contents**
 
 Jump to:
@@ -23,51 +25,32 @@ Here are the essential meta tags:
 <head>
   <!-- essentials -->
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>__TITLE__ • __SITE_NAME__</title>
   <meta name="description" content="__DESCRIPTION__" />
   <!-- extras -->
-  <meta name="keywords" content="__KEYWORDS__" />
   <meta name="author" content="__AUTHOR__" />
   <link rel="canonical" href="https://example.com/" />
   <meta name="application-name" content="__SITE_NAME__" />
-  <meta name="theme-color" content="#000000" />
+  <meta name="theme-color" content="#0000ff" />
   <!-- open graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="__TITLE__ • __SITE_NAME__" />
   <meta property="og:description" content="__DESCRIPTION__" />
-  <meta property="og:url" content="https://example.com" />
+  <meta property="og:url" content="https://example.com/" />
   <meta property="og:site_name" content="__SITE_NAME__" />
   <meta property="og:locale" content="en_US" />
-  <meta property="og:image" content="https://example.com/icon512.png" />
+  <meta property="og:image" content="./icon512.png" />
   <meta property="og:image:alt" content="__SITE_NAME__ logo icon" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="512" />
   <meta property="og:image:height" content="512" />
-  <!-- twitter -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="__TITLE__ • __SITE_NAME__" />
-  <meta name="twitter:description" content="__DESCRIPTION__" />
-  <meta name="twitter:site" content="@__TWITTER_SITE__" />
-  <meta name="twitter:creator" content="@__TWITTER_CREATOR__" />
-  <meta name="twitter:image" content="https://example.com/icon512.png" />
-  <meta name="twitter:image:alt" content="__SITE_NAME__ logo icon" />
-  <meta name="twitter:image:type" content="image/png" />
-  <meta name="twitter:image:width" content="512" />
-  <meta name="twitter:image:height" content="512" />
   <!-- icons -->
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="any" />
-  <link rel="icon" href="/icon16.png" type="image/png" sizes="16x16" />
-  <link rel="icon" href="/icon32.png" type="image/png" sizes="32x32" />
-  <link rel="icon" href="/icon192.png" type="image/png" sizes="192x192" />
-  <link
-    rel="apple-touch-icon"
-    href="/apple-icon.png"
-    type="image/png"
-    sizes="180x180"
-  />
+  <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
   <!-- stylesheets -->
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="./index.css" />
 </head>
 ```
 
@@ -77,11 +60,8 @@ The essential things you'll need to change (find and replace) here are:
 - `__SITE_NAME__`
 - `__TITLE__`
 - `__DESCRIPTION__`
-- `__KEYWORDS__`
 - `__AUTHOR__`
-- `@__TWITTER_SITE__`
-- `@__TWITTER_CREATOR__`
-- `#000000` (theme color)
+- `#0000ff` (theme color)
 
 ### Body
 
